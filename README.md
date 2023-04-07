@@ -11,7 +11,7 @@ Complete the Base Quest using Foundry. https://quests.base.org/
 
 ```bash
 forge create src/NFT.sol:NFT \
-    --rpc-url=https://goerli.base.org/ \
+    --rpc-url https://goerli.base.org/ \
     --private-key <enter private key> \
     --verify
 ```
