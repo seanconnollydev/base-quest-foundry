@@ -10,7 +10,7 @@ Complete the Base Quest using Foundry. https://quests.base.org/
 ## Deploy
 
 ```bash
-forge create src/NFT.sol:NFT \
+ETHERSCAN_API_KEY=<enter etherscan key> forge create src/NFT.sol:NFT \
     --rpc-url https://goerli.base.org/ \
     --private-key <enter private key> \
     --verify
